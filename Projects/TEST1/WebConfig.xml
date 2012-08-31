@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebConfig>
+	<UsingUTF8>no</UsingUTF8>
+	<ClientPath>\Project_0169AA97</ClientPath>
+	<Server>
+		<!-- Server member start -->
+		<ServerType>JAVA</ServerType>
+		<DNS>&lt;%=LocationDNS%&gt;</DNS>
+		<Protocol>http</Protocol>
+		<ContentType></ContentType>
+		<Security>no</Security>
+		<Encryption>no</Encryption>
+		<DNSFilter>no</DNSFilter>
+		<!-- Server member end -->
+		<!-- Server module url start -->
+		<HTMLServer>http://&lt;%=LocationDNS%&gt;/ezgen/hnwhtml</HTMLServer>
+		<DBCServer>http://&lt;%=LocationDNS%&gt;/ezgen/hnwjdbc</DBCServer>
+		<UploadServer>http://&lt;%=LocationDNS%&gt;/</UploadServer>
+		<EftpServer>http://&lt;%=LocationDNS%&gt;/ezgen/eftpmanager</EftpServer>
+		<ServerInfo></ServerInfo>
+		<XecureWeb></XecureWeb>
+		<XecurePath></XecurePath>
+		<MarkAnyURL></MarkAnyURL>
+		<!-- Server module url end -->
+		<!-- Address mappings start -->
+		<VirtualPath>
+			<eftp>no</eftp>
+			<Path>C:\CABIS\ezgen\web</Path>
+			<Alias>/</Alias>
+			<Client></Client>
+		</VirtualPath>
+		<!-- Address mappings end -->
+	</Server>
+	<DNSVariables>
+		<DNSVariable Name="LocationDNS" Value="localhost:8080"/>
+	</DNSVariables>
+	<!-- Project global variable start -->
+	<!-- Project global variable end -->
+</WebConfig>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Description>TEST1</Description>
+	<FileDescription>C:\Projects\TEST1\TEST1.ezgaproj</FileDescription>
+	<Forms>
+		<Source Name="FormDoc1.hnw" Description=""/>
+		<Source Name="autoTranDueNoti.hnw" Description=""/>
+	</Forms>
+</Project>
